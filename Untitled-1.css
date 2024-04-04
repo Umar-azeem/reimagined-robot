@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-box{
+    background-image: url(/home/umar/Documents/bar/bci.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1295px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.box-log{
+
+    backdrop-filter:blur(2px);
+    height: 350px;
+    width: 350px;
+    display: grid;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 243, 243);
+   
+}
+.lo{
+   text-align: center;
+   color: rgb(13, 43, 43);
+}
+
+.box-log p{
+    display: inline;
+    text-align: center;
+}
+form{
+    display: grid;
+    align-items: center;
+    color: rgb(13, 43, 43);
+}
+input{
+    height:40px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: rgb(211, 211, 228);
+    margin: 0px 33px;
+
+}
+.btn{
+   align-items: center;
+    height:40px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: rgb(93, 93, 250);
+    margin: 20px 84px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="main-box">
+
+        <div class="box-log">
+            <form action="login">
+                <div class="lo">
+                    <h1>Login</h1>
+                </div>
+                <label for="ename">Email</label>
+                <input type="email" name="email" id="ename">
+                <label for="pname">Password</label>
+                <input type="password" name="password" id="pname">
+                <button onclick="func()">Sibmit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function func() {
+            var email = Document.getElementById("email").value;
+            var password = Document.getElementById("password").value;
+            if (email == "umara4436@gmail.com" && password == "112233") {
+                alert("success full !")
+                window.location.assign("index.html")
+            }
+            else {
+                alert("wrong enter !")
+            }
+        }
+    </script>
+</body>
+
+</html>
